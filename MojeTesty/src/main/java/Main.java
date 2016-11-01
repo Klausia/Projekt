@@ -17,18 +17,18 @@ public class Main {
     }
     public static void main(String[] args){
         boolean prawda=5>3;
-        if (prawda) {
-            System.out.println(prawda);
+       if (prawda) {
+        System.out.println(prawda);
         }
-        Integer b=100;
+       Integer b=100;
         System.out.println("Dana liczba to " + b);
         int suma=0;
-        int[] array={1,5,6,9,10};
+        int[] array={1,5,6,9,10,18,25,36,45,4,8,6};
         System.out.println(array[4]);
         for(int i=0; i<array.length; i++){
-            suma=suma+array[i];
-            System.out.println(suma);
+            if (array[i]%2==0) {
+                System.out.println(array[i]);
+            }
         }
-
     }
 }
