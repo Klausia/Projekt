@@ -1,1 +1,1 @@
-test
+My first java application, which will do amazing things.
